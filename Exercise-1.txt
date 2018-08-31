@@ -1,0 +1,36 @@
+// Soal nomor 1
+STORE "massa" with 600
+STORE "percepatan" with 2
+STORE "gaya" without any value
+
+CALCULATE "massa" times "percepatan"
+SET "gaya" value with calculaton result
+
+DISPLAY"gaya"
+
+// Soal nomor 2
+IF "habis di bagi 4 && tidak habis di bagi 100"
+   THEN "Tahun Kabisat"
+ELSE IF "habis di bagi 4 && habis di bagi 100 && habis di bagi 400"
+   THEN "Tahun Kabisat"
+ELSE
+   THEN "Bukan Tahun Kabisat"
+END IF
+
+// Soal nomor 3
+STORE "pakaian" with 0
+
+WHILE "pakaian" <=20
+  ADD "pakaian" by 1
+pakaian = pakaian + 1
+DISPLAY "Mesin cuci dinyalakan"
+
+// Soal nomor 4
+STORE "siswa/siswi" with 0
+
+IF "kuku panjang" 
+   THEN "Hukuman"
+ELSE IF "kuku pendek"
+   THEN "Pujian"
+END IF
+
